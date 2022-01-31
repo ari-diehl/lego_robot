@@ -1,0 +1,16 @@
+* {
+  transition: 100ms;
+}
+
+nav {
+  background: rgb(29, 78, 216);
+  background: linear-gradient(
+    45deg,
+    rgba(29, 78, 216, 1) 0%,
+    rgba(30, 58, 138, 1) 100%
+  );
+}
+
+nav > a > svg:hover {
+  transform: scale(1.4);
+}
